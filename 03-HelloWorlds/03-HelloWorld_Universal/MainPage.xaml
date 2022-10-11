@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="_03_HelloWorld_Universal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_03_HelloWorld_Universal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="textoNombre" HorizontalAlignment="Left" Margin="302,310,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBox x:Name="cajaTexto" HorizontalAlignment="Left" Margin="381,303,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228"/>
+        <Button x:Name="botonSaludar" Content="Saludar" Margin="356,390,0,0" VerticalAlignment="Top" Click="botonSaludar_Click_1"/>
+        <TextBlock x:Name="mensajeError" HorizontalAlignment="Left" Margin="693,319,0,0" TextWrapping="Wrap" Text="Introduce unn ombre correcto" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

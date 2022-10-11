@@ -1,0 +1,10 @@
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\bin\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.deps.json
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\bin\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.dll
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\bin\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.pdb
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.csproj.AssemblyReference.cache
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.AssemblyInfoInputs.cache
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.AssemblyInfo.cs
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.csproj.CoreCompileInputs.cache
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.dll
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_EntidadesStandard\obj\Debug\netstandard2.0\03-HelloWorld_EntidadesStandard.pdb

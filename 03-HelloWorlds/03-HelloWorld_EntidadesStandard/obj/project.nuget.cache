@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1hhNgYH4uJ3GhBp0doXUbAaFZTKc4h+bnNxoO5/HimFW7iztQPl75jxfGa1YCgQzD3VURxzf/L8Fbl1eNrUlaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pcornejo\\IdeaProjects\\EjerciciosSegundo\\EjerciciosInterfaces\\03-HelloWorlds\\03-HelloWorld_EntidadesStandard\\03-HelloWorld_EntidadesStandard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pcornejo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pcornejo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

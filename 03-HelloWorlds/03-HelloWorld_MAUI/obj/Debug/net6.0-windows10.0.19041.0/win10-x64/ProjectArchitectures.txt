@@ -1,0 +1,1 @@
+C:\Users\pcornejo\IdeaProjects\EjerciciosSegundo\EjerciciosInterfaces\03-HelloWorlds\03-HelloWorld_MAUI\03-HelloWorld_MAUI.csproj;x64
