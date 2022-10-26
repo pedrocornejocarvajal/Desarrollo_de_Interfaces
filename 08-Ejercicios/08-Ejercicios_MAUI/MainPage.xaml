@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_08_Ejercicios_MAUI.MainPage">
+
+
+    <Border
+       Stroke="purple"
+        StrokeThickness="8"
+        StrokeShape="RoundRectangle 40, 40, 0, 0"
+        Margin="15"
+        >
+
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"     
+            >
+            
+          
+            <Button
+                x:Name="Boton1"
+                Text="Boton1"
+                BackgroundColor="Purple"
+                BorderColor="White"
+                Padding="10,10,10,10"
+                TextColor="White"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="Boton2"
+                Text="Boton2"
+                BackgroundColor="Purple"
+                TextColor="White"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="Boton3"
+                Text="Boton3"               
+                BackgroundColor="Purple"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+            <HorizontalStackLayout
+
+                HorizontalOptions="Center">
+
+
+
+                <Label
+                Text="Nombre: "
+                SemanticProperties.HeadingLevel="Level1"
+                FontAttributes="Bold"
+                Margin="0,0,25,0"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+                <Entry
+                x:Name="cajaTexto"
+                    BackgroundColor="LightBlue"
+                FontSize="32"
+                />
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Border>
+</ContentPage>
