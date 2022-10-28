@@ -1,10 +1,14 @@
 ENTIDADES:
 
-
+	clsPersona: 
+		- String -> nombre, apellido, dni
 
 
 
 DAL:
+
+	clsListadosPersonas:
+		- List<clsPersona> ListadoCompletoPersonas()
 
 	
 		
@@ -12,6 +16,7 @@ DAL:
 UI:
 
 	ViewModel:
+		- 
 
 		
 			 
