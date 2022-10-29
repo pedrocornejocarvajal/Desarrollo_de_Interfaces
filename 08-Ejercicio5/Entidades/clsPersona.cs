@@ -5,9 +5,9 @@
 
         #region
 
-        private String nombre { get; set; }
-        private String apellidos { get; set; }
-        private String dni { get; set; }
+        private String Nombre { get; set; }
+        private String Apellidos { get; set; }
+        private String Dni { get; set; }
 
         #endregion
 
@@ -17,9 +17,9 @@
 
         public clsPersona( String nombre, String apellidos, String dni)
         {
-            this.dni = dni;
-            this.nombre = nombre;
-            this.apellidos = apellidos;
+            this.Dni = dni;
+            this.Nombre = nombre;
+            this.Apellidos = apellidos;
 
         }
         #endregion

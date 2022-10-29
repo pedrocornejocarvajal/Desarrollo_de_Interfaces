@@ -3,39 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_08_Ejercicio5_MAUI.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <Grid>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+        <ListView x:Name="PersonListView" ItemsSource="{Binding Personas}" RowHeight="100">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout
+                            Direction="Row"
+                            JustifyContent="SpaceBetween"
+                            >
+                            <HorizontalStackLayout
+                                VerticalOptions="Center"
+                                HorizontalOptions="Start">
+                              
+                                <Label 
+                                   Text="{Binding Nombre}"
+                                   VerticalOptions="Center">
+                                </Label>
+                                <Label 
+                                   Text="{Binding Apellidos}"
+                                   VerticalOptions="Center">
+                                </Label>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                            <HorizontalStackLayout>
+                                
+                                <Button 
+                                    HorizontalOptions="Center"
+                                    CornerRadius="10"
+                                    BackgroundColor="LightBlue"
+                                ></Button>
+                                
+                                <Button                    
+                                    BackgroundColor="LightBlue"
+                                    CornerRadius="10" 
+                                ></Button>
+                                
+                            </HorizontalStackLayout>
 
-        </VerticalStackLayout>
-    </ScrollView>
+                        </FlexLayout>
+                        
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button></Button>
+    </Grid>
 
 </ContentPage>

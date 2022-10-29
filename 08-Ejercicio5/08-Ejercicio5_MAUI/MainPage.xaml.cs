@@ -1,24 +1,38 @@
-﻿namespace _08_Ejercicio5_MAUI;
+﻿using DAL;
+using Entidades;
+using System.Collections.ObjectModel;
+
+namespace _08_Ejercicio5_MAUI;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
-
-	public MainPage()
+    public MainPage()
 	{
-		InitializeComponent();
-	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+            
+    InitializeComponent();
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+
+     ObservableCollection<clsPersona> Personas = new ObservableCollection<clsPersona>();
+
+ 
+    clsListadoPersonas clsListadoPersonas = new clsListadoPersonas();
+		
+
+        List<clsPersona> lista = clsListadoPersonas.ListadoCompletoDepartamentos();
+
+		foreach (var item in lista)
+		{
+			Personas.Add(item);
+		}
+
+		PersonListView.ItemsSource = Personas;
+
+
+    }
+
+
+
 }
 

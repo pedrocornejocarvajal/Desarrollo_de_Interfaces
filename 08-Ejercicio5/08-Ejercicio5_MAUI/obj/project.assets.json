@@ -25294,27 +25294,23 @@
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
       "DAL >= 1.0.0",
-      "Entidades >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.486",
       "Microsoft.Maui.Extensions >= 6.0.486"
     ],
     "net6.0-ios15.4": [
       "DAL >= 1.0.0",
-      "Entidades >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.486",
       "Microsoft.Maui.Extensions >= 6.0.486",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.4": [
       "DAL >= 1.0.0",
-      "Entidades >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.486",
       "Microsoft.Maui.Extensions >= 6.0.486",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
       "DAL >= 1.0.0",
-      "Entidades >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.486",
       "Microsoft.Maui.Extensions >= 6.0.486",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194"
@@ -25359,9 +25355,6 @@
           "projectReferences": {
             "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj"
-            },
-            "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj"
             }
           }
         },
@@ -25370,9 +25363,6 @@
           "projectReferences": {
             "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj"
-            },
-            "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj"
             }
           }
         },
@@ -25381,9 +25371,6 @@
           "projectReferences": {
             "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj"
-            },
-            "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj"
             }
           }
         },
@@ -25392,9 +25379,6 @@
           "projectReferences": {
             "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\DAL\\DAL.csproj"
-            },
-            "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\pedro\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\08-Ejercicio5\\Entidades\\Entidades.csproj"
             }
           }
         }

@@ -15,8 +15,10 @@ DAL:
 	
 UI:
 
-	ViewModel:
-		- 
+	Mainpage.cs:
+		-observableCollection = ListadoCompletoPersonas()
+
+	MainPage.xaml: Mostrar listado de personas con botones
 
 		
 			 
