@@ -1,0 +1,25 @@
+ENTIDADES:
+
+	clsCita: 
+		- String -> direccion, telefono, nombre, apellido
+
+
+
+DAL:
+
+	clsListadoCompletoCitas:
+		- List<clsCita> ListadoCompletoCitas()
+
+	
+		
+	
+UI:
+
+	Mainpage.cs:
+		-observableCollection = ListadoCompletoCitas()
+
+	MainPage.xaml: Mostrar listado de personas con botones
+
+		
+			 
+		
