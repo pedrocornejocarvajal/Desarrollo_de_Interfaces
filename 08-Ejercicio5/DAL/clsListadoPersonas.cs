@@ -8,7 +8,7 @@ namespace DAL
         /// Precondiciones: la base de datos esta disponible
         /// Postcondiciones: ninguna
         /// </summary>
-        /// <returns> List<clsDepartamentos> </returns>
+        /// <returns> List<clsPersona> </returns>
         /// 
         public List<clsPersona> ListadoCompletoDepartamentos()
         {
