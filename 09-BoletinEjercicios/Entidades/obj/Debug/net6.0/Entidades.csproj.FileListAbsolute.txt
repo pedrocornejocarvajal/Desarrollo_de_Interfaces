@@ -1,0 +1,12 @@
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\09-BoletinEjercicios\Entidades\obj\Debug\net6.0\ref\Entidades.dll
