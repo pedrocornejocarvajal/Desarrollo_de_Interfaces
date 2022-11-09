@@ -1,0 +1,17 @@
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\Mandaloriano-BL.deps.json
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\Mandaloriano-BL.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\Mandaloriano-BL.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\DAL.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\Entidades.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\DAL.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\bin\Debug\net6.0\Entidades.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.csproj.AssemblyReference.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.AssemblyInfoInputs.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.AssemblyInfo.cs
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.csproj.CoreCompileInputs.cache
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.csproj.CopyComplete
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\refint\Mandaloriano-BL.dll
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\Mandaloriano-BL.pdb
+C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\Mandaloriano\Mandaloriano-BL\obj\Debug\net6.0\ref\Mandaloriano-BL.dll
