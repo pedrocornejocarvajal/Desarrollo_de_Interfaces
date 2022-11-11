@@ -6,11 +6,11 @@
     {
         #region
 
-        private String NombreMision { get; set; }
-        private String Descripcion { get; set; }
-        private String Recompensa { get; set; }
+        public String NombreMision { get; set; }
+        public String Descripcion { get; set; }
+        public String Recompensa { get; set; }
 
-        private int IdMision { get; set; }
+        public int IdMision { get; set; }
 
         #endregion
 

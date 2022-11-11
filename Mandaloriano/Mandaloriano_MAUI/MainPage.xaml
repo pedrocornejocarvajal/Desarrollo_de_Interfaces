@@ -1,27 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Mandaloriano_MAUI.ViewModels"
              x:Class="Mandaloriano_MAUI.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <ContentPage.BindingContext>
+        <model:clsMainPageVM/>
+    </ContentPage.BindingContext>
 
-    
-            <Label
-                Text="Listado de Misiones"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+    <VerticalStackLayout>
+
+        <ListView x:Name="lstListadoMisiones" ItemsSource="{Binding ListadoMisionesCompleta}" SelectedItem="{Binding MisionSeleccionada}">
+        <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="miau"/>
+                    </ViewCell>
+                </DataTemplate>
             
-            <ComboBox x:Name="MisionesCombo" Header="Fonts" Height="44" Width="296"
-                ItemsSource="{x:Bind Misiones}" DisplayMemberPath="Source"/>
+        </ListView.ItemTemplate>
 
-            
+        </ListView>
 
-        </VerticalStackLayout>
+        <Button x:Name="btnMostrarDetalleMision" Command="{Binding MostrarDetallesCommand}"/>
+
+        <Label x:Name="lblNombreMision" Text="{Binding MisionSeleccionada.NombreMision}"/>
+        <Label x:Name="lblDescripcionMision" Text="{Binding MisionSeleccionada.Descripcion"/>
+        <Label x:Name="lblRecompensaMision" Text="{Binding MisionSeleccionada.Recompensa}"/>
+
+
+
+    </VerticalStackLayout>
+
+
+
     </ScrollView>
 
 </ContentPage>
