@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD_Personas_DAL\CRUD_Personas_DAL.csproj" />
+    <ProjectReference Include="..\CRUP_Personas_Entidades\CRUP_Personas_Entidades.csproj" />
+  </ItemGroup>
+
 </Project>
