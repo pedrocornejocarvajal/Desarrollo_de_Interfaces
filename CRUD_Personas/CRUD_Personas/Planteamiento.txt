@@ -1,0 +1,50 @@
+ENTIDADES:
+
+	clsPersona: 
+		- String -> nombre, apellido, dni
+
+	clsDepartamento:
+		-String -> idDepartamento, nombreDepartamento
+		
+
+
+DAL:
+
+	clsListadosPersonas:
+		- List<clsPersona> ListadoCompletoPersonas()
+
+	clsManejadoraPersona:
+		- clsPersona optenerPersonasPorNombre(String Nombre)
+		- int guardarPersona(clsPersona persona)
+
+	clsListadoDepartamentos:
+		- List<clsDepartamento> ListadoCompletoDepartamentos()
+
+	clsMyConection:
+		- String server, dataBase, user, pass
+
+BL:
+
+	clsListadoPersonas:
+		- List<clsPersona> ListadoCompletoPersonas()
+	
+		
+	
+UI_Maui:
+
+	ViewModels:
+		- ListadoPersonasPage: Vista donde mostraremos la lista de personas con las opcines disponibles
+
+		- NuevaPersonaPage: Vista que se abrira cuando pulsemos el boton añadir persona
+
+		- ListadoDepartamentosPage: Vista donde mostraremos la litsa de departamentos con las opciones disponibles
+
+		- NuevoDepartamentoPage: Vista que se abrira cunado pulsemos el boton añadir departamento
+
+
+UI_ASP:
+
+	
+		
+			 
+		
