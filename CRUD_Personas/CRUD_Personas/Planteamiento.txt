@@ -1,10 +1,13 @@
 ENTIDADES:
 
 	clsPersona: 
-		- String -> nombre, apellido, dni
+		- String -> nombre, apellido, telefono, direccion, foto
+		- int -> idPersona idDepartamento
+		- Date -> fechaNacimiento
 
 	clsDepartamento:
 		-String -> idDepartamento, nombreDepartamento
+
 		
 
 
@@ -44,7 +47,27 @@ UI_Maui:
 
 UI_ASP:
 
-	
+	HomeControllers:
+		index() -> te dara las opciones de entrar en personas o en departamentos
+
+	personaController()
+		[httpost]
+		añadir(clsPersona)
+		[httpost]
+		editar(clsPersona) 
+		[httpost]
+		borrar(clsPersona)
+
+	departamentosController()
+		[httpost]
+		añadir(clsDepartamento)
+		[httpost]
+		editar() return view(editarVM)
+		[httpost]
+		borrar(clsDepartamento)
+
+	ViewModels:
+		- editarVM: hereda de clspersona y añadimos propiedad
 		
 			 
 		
