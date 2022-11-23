@@ -779,14 +779,14 @@
           }
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     }
@@ -2568,15 +2568,15 @@
         "version.txt"
       ]
     },
-    "CRUP_Personas_Entidades/1.0.0": {
+    "CRUD_Personas_Entidades/1.0.0": {
       "type": "project",
-      "path": "../CRUP_Personas_Entidades/CRUP_Personas_Entidades.csproj",
-      "msbuildProject": "../CRUP_Personas_Entidades/CRUP_Personas_Entidades.csproj"
+      "path": "../CRUP_Personas_Entidades/CRUD_Personas_Entidades.csproj",
+      "msbuildProject": "../CRUP_Personas_Entidades/CRUD_Personas_Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CRUP_Personas_Entidades >= 1.0.0",
+      "CRUD_Personas_Entidades >= 1.0.0",
       "Microsoft.Data.SqlClient >= 5.0.1"
     ]
   },
@@ -2613,8 +2613,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj": {
-              "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj"
+            "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj": {
+              "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj"
             }
           }
         }

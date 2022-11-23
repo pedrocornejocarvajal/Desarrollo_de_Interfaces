@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj": {
-                "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj"
+              "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj": {
+                "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj"
               }
             }
           }
@@ -74,12 +74,12 @@
         }
       }
     },
-    "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj": {
+    "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj",
-        "projectName": "CRUP_Personas_Entidades",
-        "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUP_Personas_Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj",
+        "projectName": "CRUD_Personas_Entidades",
+        "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj",
         "packagesPath": "C:\\Users\\pcornejo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\obj\\",
         "projectStyle": "PackageReference",

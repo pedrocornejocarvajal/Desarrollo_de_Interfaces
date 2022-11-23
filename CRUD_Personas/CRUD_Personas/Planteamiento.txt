@@ -35,14 +35,41 @@ BL:
 	
 UI_Maui:
 
-	ViewModels:
+	Vistas:
 		- ListadoPersonasPage: Vista donde mostraremos la lista de personas con las opcines disponibles
 
-		- NuevaPersonaPage: Vista que se abrira cuando pulsemos el boton añadir persona
+		- EditarAñadirPersonaPage: Vista que se abrira cuando pulsemos el boton añadir persona
 
 		- ListadoDepartamentosPage: Vista donde mostraremos la litsa de departamentos con las opciones disponibles
 
-		- NuevoDepartamentoPage: Vista que se abrira cunado pulsemos el boton añadir departamento
+		- EditarAñadirDepartamentoPage: Vista que se abrira cunado pulsemos el boton añadir departamento
+		
+	
+		
+
+
+	ViewModels:
+		- vmListadoPersonas: 
+			+ public List<clsPersona>
+			+ commanDelegate añadirPersona
+			+ commanDelegate eliminarPersona
+			+ commanDelegate editarPersona
+
+		- vmEditarAñadirPersona: Vista que se abrira cuando pulsemos el boton añadir persona
+			+public clsPersona personaSeleccionada
+			+ commanDelegate cancelarPersona
+			+ commanDelegate guardarPersona
+
+		- vmListadoDepartamentos:
+			+ public List<clsDepartamento>
+			+ commanDelegate añadirDepartamento
+			+ commanDelegate eliminarDepartamento
+			+ commanDelegate editarDepartamento
+
+		- vmEditarAñadirDepartamento: 
+			+public clsDepartamento departamentoSeleccionado
+			+ commanDelegate cancelarDepartamento
+			+ commanDelegate guardarDepartamento
 
 
 UI_ASP:

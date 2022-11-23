@@ -2577,7 +2577,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -2590,7 +2590,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -2600,14 +2600,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -5089,7 +5089,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -5102,7 +5102,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -5112,14 +5112,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -7601,7 +7601,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -7614,7 +7614,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -7624,14 +7624,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -10113,7 +10113,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -10126,7 +10126,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -10136,14 +10136,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -12625,7 +12625,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -12638,7 +12638,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -12648,14 +12648,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -15137,7 +15137,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -15150,7 +15150,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -15160,14 +15160,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -17649,7 +17649,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -17662,7 +17662,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -17672,14 +17672,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -20172,7 +20172,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -20185,7 +20185,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -20195,14 +20195,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -21190,7 +21190,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -21203,7 +21203,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -21213,14 +21213,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -22231,7 +22231,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -22244,7 +22244,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -22254,14 +22254,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -23272,7 +23272,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -23285,7 +23285,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -23295,14 +23295,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -24313,7 +24313,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -24326,7 +24326,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -24336,14 +24336,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -25354,7 +25354,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -25367,7 +25367,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -25377,14 +25377,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -26395,7 +26395,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -26408,7 +26408,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -26418,14 +26418,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -27436,7 +27436,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -27449,7 +27449,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -27459,14 +27459,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -28464,7 +28464,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -28477,7 +28477,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -28487,14 +28487,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -29482,7 +29482,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -29495,7 +29495,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -29505,14 +29505,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -30523,7 +30523,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -30536,7 +30536,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -30546,14 +30546,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -31564,7 +31564,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -31577,7 +31577,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -31587,14 +31587,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -32605,7 +32605,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -32618,7 +32618,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -32628,14 +32628,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -33646,7 +33646,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -33659,7 +33659,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -33669,14 +33669,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -34687,7 +34687,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -34700,7 +34700,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -34710,14 +34710,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -35728,7 +35728,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -35741,7 +35741,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -35751,14 +35751,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -36756,7 +36756,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -36769,7 +36769,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -36779,14 +36779,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -37945,7 +37945,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -37958,7 +37958,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -37968,14 +37968,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -39115,7 +39115,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -39128,7 +39128,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -39138,14 +39138,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -40285,7 +40285,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -40298,7 +40298,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -40308,14 +40308,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -41455,7 +41455,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -41468,7 +41468,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -41478,14 +41478,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -42625,7 +42625,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -42638,7 +42638,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -42648,14 +42648,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -43795,7 +43795,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -43808,7 +43808,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -43818,14 +43818,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -44965,7 +44965,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -44978,7 +44978,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -44988,14 +44988,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     },
@@ -46131,7 +46131,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD_Personas_DAL": "1.0.0",
-          "CRUP_Personas_Entidades": "1.0.0"
+          "CRUD_Personas_Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRUD_Personas_BL.dll": {}
@@ -46144,7 +46144,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CRUP_Personas_Entidades": "1.0.0",
+          "CRUD_Personas_Entidades": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
@@ -46154,14 +46154,14 @@
           "bin/placeholder/CRUD_Personas_DAL.dll": {}
         }
       },
-      "CRUP_Personas_Entidades/1.0.0": {
+      "CRUD_Personas_Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRUP_Personas_Entidades.dll": {}
+          "bin/placeholder/CRUD_Personas_Entidades.dll": {}
         }
       }
     }
@@ -51326,10 +51326,10 @@
       "path": "../CRUD_Personas_DAL/CRUD_Personas_DAL.csproj",
       "msbuildProject": "../CRUD_Personas_DAL/CRUD_Personas_DAL.csproj"
     },
-    "CRUP_Personas_Entidades/1.0.0": {
+    "CRUD_Personas_Entidades/1.0.0": {
       "type": "project",
-      "path": "../CRUP_Personas_Entidades/CRUP_Personas_Entidades.csproj",
-      "msbuildProject": "../CRUP_Personas_Entidades/CRUP_Personas_Entidades.csproj"
+      "path": "../CRUP_Personas_Entidades/CRUD_Personas_Entidades.csproj",
+      "msbuildProject": "../CRUP_Personas_Entidades/CRUD_Personas_Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {

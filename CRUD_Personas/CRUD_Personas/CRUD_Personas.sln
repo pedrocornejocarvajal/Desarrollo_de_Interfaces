@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_Maui", "CRUD_Personas_Maui\CRUD_Personas_Maui.csproj", "{2AD35A2D-E3E8-4B84-8D20-CB13AEBDC56B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUP_Personas_Entidades", "CRUP_Personas_Entidades\CRUP_Personas_Entidades.csproj", "{EE33918F-0E59-4F9C-81F9-044838BACDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_Entidades", "CRUP_Personas_Entidades\CRUD_Personas_Entidades.csproj", "{EE33918F-0E59-4F9C-81F9-044838BACDDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_DAL", "CRUD_Personas_DAL\CRUD_Personas_DAL.csproj", "{58E393A9-1D91-4E10-A634-903BB5AA173C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_DAL", "CRUD_Personas_DAL\CRUD_Personas_DAL.csproj", "{58E393A9-1D91-4E10-A634-903BB5AA173C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_BL", "CRUD_Personas_BL\CRUD_Personas_BL.csproj", "{15F52316-DEB6-4D83-A8A3-8E250987F5CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_BL", "CRUD_Personas_BL\CRUD_Personas_BL.csproj", "{15F52316-DEB6-4D83-A8A3-8E250987F5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_ASP", "CRUD_Personas_ASP\CRUD_Personas_ASP.csproj", "{3B69DD3A-65E1-46B2-AD25-5C0D278D2B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_ASP", "CRUD_Personas_ASP\CRUD_Personas_ASP.csproj", "{3B69DD3A-65E1-46B2-AD25-5C0D278D2B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
