@@ -16,20 +16,28 @@ DAL:
 	clsListadosPersonas:
 		- List<clsPersona> ListadoCompletoPersonas()
 
-	clsManejadoraPersona:
-		- clsPersona optenerPersonasPorNombre(String Nombre)
-		- int guardarPersona(clsPersona persona)
 
 	clsListadoDepartamentos:
 		- List<clsDepartamento> ListadoCompletoDepartamentos()
+
+	clsManejadoraPersona:
+		- clsPersona optenerPersonasPorNombre(String Nombre)
+		- int guardarPersona(clsPersona persona)
+		- int borrarPersona(clsPersona persona)
+		- int actualizarPersona(clsPersona)
+
+	clsManejadoraDepartamento:
+		- clsPersona optenerDepartamentoPorNombre(String Nombre)
+		- int guardarDepartamento(clsDepartamento)
+		- int borrarDepartamento(clsDepartamento departamento)
+		- int actualizarDepartamento(clsDepartamento departamento)
 
 	clsMyConection:
 		- String server, dataBase, user, pass
 
 BL:
+	¿mismo que la DAL pero con restricciones?
 
-	clsListadoPersonas:
-		- List<clsPersona> ListadoCompletoPersonas()
 	
 		
 	
@@ -67,34 +75,78 @@ UI_Maui:
 			+ commanDelegate editarDepartamento
 
 		- vmEditarAñadirDepartamento: 
-			+public clsDepartamento departamentoSeleccionado
+			+ public clsDepartamento departamentoSeleccionado
 			+ commanDelegate cancelarDepartamento
 			+ commanDelegate guardarDepartamento
 
 
 UI_ASP:
 
-	HomeControllers:
+	- HomeControllers:
 		index() -> te dara las opciones de entrar en personas o en departamentos
 
-	personaController()
-		[httpost]
-		añadir(clsPersona)
-		[httpost]
-		editar(clsPersona) 
-		[httpost]
-		borrar(clsPersona)
+	- personaController()
+			Return View(ListaPersonasVM)
 
-	departamentosController()
-		[httpost]
-		añadir(clsDepartamento)
-		[httpost]
-		editar() return view(editarVM)
-		[httpost]
-		borrar(clsDepartamento)
+		+ añadir -> añade una persona nueva
+			Return view(List<clsDepartamentos>)
+		  [httpost]
+		  añadir(clsPersona persona)
+			Return view(index)
 
-	ViewModels:
-		- editarVM: hereda de clspersona y añadimos propiedad
+
+		+ editar -> edita una persona ya creada
+			Return view()
+		  [httpost]
+		  editar(clsPersona) 
+			Return view(index)
+
+
+		+ borrar -> borra una persona de la base de datos
+			Return view()
+		  [httpost]
+		  borrar(clsPersona)
+			Return View(index)
+
+
+	- departamentosController()
+			Return View(List<clsDepartamento>)
+
+		+ añadir -> añade un departamento nuevo
+			Return view()
+		  [httpost]
+		  añadir(clsDepartamento departamento)
+			Return view(index)
+
+
+		+ editar -> edita un departamento ya creado en la base de datos
+			Return view()
+		  [httpost]
+		  editar(clsDepartamento departamentoSeleccionado) 
+			Return view(index)
+
+
+		+ borrar -> borra un departamento de la base de datos
+			Return view()
+		  [httpost]
+		  borrar(clsDepartamento departamentoSeleccionado)
+			Return View(index)
+
+
+	Models:
+
+	
+		ViewModels:
+
+
+			- ListadoPersonasVM: 
+					+ List<clsPersonaNombreDepartamento>ListaPersonas		
+	
+			- editarPersonaVM: hereda de clspersona y añadimos propiedad
+					+ propiedad: list<clsDepartamento>
+
+			- clsDetallesPersonaVM: Hereda clsPersona
+					+ String nomDepartamento
 		
 			 
 		
