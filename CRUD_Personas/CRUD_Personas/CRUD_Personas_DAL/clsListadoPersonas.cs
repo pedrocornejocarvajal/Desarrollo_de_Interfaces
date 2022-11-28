@@ -1,4 +1,6 @@
-﻿using CRUP_Personas_Entidades;
+﻿using _07_CRUD_Personas_DAL.Conexion;
+using CRUP_Personas_Entidades;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +9,20 @@ using System.Threading.Tasks;
 
 namespace CRUD_Personas_DAL
 {
-    internal class clsListadoPersonas
+    public class clsListadoPersonas
     {
+
+        #region Atributos
+        private clsMyConnection miConexion;
+        #endregion
+
+        #region Constructores
+        public clsListadoPersonas(){
+
+            miConexion = new clsMyConnection();
+        }
+        #endregion
+
 
         /// <summary>
         /// Accedemos a la base de datos y devolvemos un listado completo de las personas
@@ -21,22 +35,37 @@ namespace CRUD_Personas_DAL
         {
             List<clsPersona> lista = new List<clsPersona>();
 
+            try
+            {
+                SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
+                SqlCommand comando = new SqlCommand();  // Guarda el comando sql
+                SqlDataReader miLector;  // Abre el lector
 
-            lista.Add(new clsPersona("Pedro", "Cornejo", "25621303Q"));
-            lista.Add(new clsPersona("Jose", "Cornejo", "45789654W"));
-            lista.Add(new clsPersona("Monica", "Carvajal", "25017836F"));
-            lista.Add(new clsPersona("Carmelo", "Aguilar", "98523645H"));
-            lista.Add(new clsPersona("Antonio", "Gallardo", "78250364E"));
-            lista.Add(new clsPersona("Francisco", "Gallardo", "45012367J"));
-            lista.Add(new clsPersona("Pepe", "Perez", "98147632P"));
-            lista.Add(new clsPersona("Miguel", "Hernandez", "78023645L"));
-            lista.Add(new clsPersona("Nabil", "Fekir", "78953416L"));
-            lista.Add(new clsPersona("Joaquin", "Sanchez", "1205463C"));
-            lista.Add(new clsPersona("Sergio", "Canales", "45210369Q"));
-            lista.Add(new clsPersona("Borja", "Iglesias", "36521348Ñ"));
-            lista.Add(new clsPersona("Marc", "Bartra", "45107896L"));
-            lista.Add(new clsPersona("Alex", "Moreno", "78369478P"));
-            lista.Add(new clsPersona("Luiz", "Henrique", "25314598H"));
+                comando.CommandText = "Select * From Personas"; // creamos el comando
+
+                comando.Connection = cnn; //le metemos el comando a nuestra conexion
+
+                miLector = comando.ExecuteReader(); //Ejecutamos el comando en nuestra bbdd
+
+                while (miLector.Read())
+                {
+                    if (miLector.HasRows)
+                    {
+                        lista.Add(new clsPersona(
+                            miLector.GetInt32(0),
+                            miLector.GetString(1),
+                            miLector.GetString(2),
+                            miLector.GetString(3),
+                            miLector.GetString(4),
+                            miLector.GetDateTime(5),
+                            miLector.GetString(6),
+                            miLector.GetInt32(7)
+                            ));
+                    }
+                }
+            }
+            catch (Exception) { throw; }
+            
 
 
             return lista;

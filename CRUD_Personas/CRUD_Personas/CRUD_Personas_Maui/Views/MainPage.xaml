@@ -1,12 +1,12 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:model="clr-namespace:CRUD_Personas_Maui"
-             x:Class="_09_Ejercicio3_MAUI.MainPage">
+             xmlns:model="clr-namespace:CRUD_Personas_Maui.ViewModels"
+             x:Class="_09_Ejercicio3_MAUI.Views.MainPage">
 
 
     <ContentPage.BindingContext>
 
-        <model:recogerPersona></model:recogerPersona>
+        <model: recogerPersona />
 
     </ContentPage.BindingContext>
     <ScrollView>

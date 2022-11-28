@@ -21,10 +21,10 @@ DAL:
 		- List<clsDepartamento> ListadoCompletoDepartamentos()
 
 	clsManejadoraPersona:
-		- clsPersona optenerPersonasPorNombre(String Nombre)
+		- clsPersona optenerPersonasPorId(String Nombre)
 		- int guardarPersona(clsPersona persona)
 		- int borrarPersona(clsPersona persona)
-		- int actualizarPersona(clsPersona)
+		- int actualizarPersona(clsPersona persona)
 
 	clsManejadoraDepartamento:
 		- clsPersona optenerDepartamentoPorNombre(String Nombre)
@@ -53,9 +53,6 @@ UI_Maui:
 		- EditarAñadirDepartamentoPage: Vista que se abrira cunado pulsemos el boton añadir departamento
 		
 	
-		
-
-
 	ViewModels:
 		- vmListadoPersonas: 
 			+ public List<clsPersona>

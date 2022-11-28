@@ -10,9 +10,12 @@ namespace CRUP_Personas_Entidades
     {
 
         #region Atributos
-        private String nombreDepartamento { get; set; }
 
-        private int idDepartamento { get; set; }
+        private int idDepartamento;
+        private String nombreDepartamento;
+
+        public int IdDepartamento { get { return idDepartamento; }}
+        public String NombreDepartamento { get { return nombreDepartamento; } set { nombreDepartamento = value; } }
 
 
         #endregion

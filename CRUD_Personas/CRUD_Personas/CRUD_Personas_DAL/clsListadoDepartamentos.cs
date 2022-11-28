@@ -3,12 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _07_CRUD_Personas_DAL.Conexion;
 using CRUP_Personas_Entidades;
+using Microsoft.Data.SqlClient;
 
 namespace CRUD_Personas_DAL
 {
-    internal class clsListadoDepartamentos
+    public class clsListadoDepartamentos
     {
+
+        #region Atributos
+        private clsMyConnection miConexion;
+        #endregion
+
+        #region Constructores
+        public clsListadoDepartamentos()
+        {
+
+            miConexion = new clsMyConnection();
+        }
+        #endregion
+
         /// <summary>
         /// Accedemos a la base de datos y devolvemos un listado completo de los departamentos
         /// Precondiciones: la base de datos esta disponible
@@ -21,12 +36,30 @@ namespace CRUD_Personas_DAL
             List<clsDepartamento> lista = new List<clsDepartamento>();
 
 
-            lista.Add(new clsDepartamento(1, "Finanzas"));
-            lista.Add(new clsDepartamento(2, "RRHH"));
-            lista.Add(new clsDepartamento(3, "Marqueting"));
-            lista.Add(new clsDepartamento(4, "Transportes"));
+            try
+            {
+                SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
+                SqlCommand comando = new SqlCommand();  // Guarda el comando sql
+                SqlDataReader miLector;  // Abre el lector
 
+                comando.CommandText = "Select * From Departamentos"; // creamos el comando
 
+                comando.Connection = cnn; //le metemos el comando a nuestra conexion
+
+                miLector = comando.ExecuteReader(); //Ejecutamos el comando en nuestra bbdd
+
+                while (miLector.Read())
+                {
+                    if (miLector.HasRows)
+                    {
+                        lista.Add(new clsDepartamento(
+                        miLector.GetInt32(0),
+                        miLector.GetString(1)
+                        ));
+                    }
+                }
+            }
+            catch (Exception) { throw; }
             return lista;
         }
     }

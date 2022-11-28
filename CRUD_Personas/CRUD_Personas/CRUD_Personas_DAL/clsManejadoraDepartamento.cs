@@ -1,10 +1,15 @@
 ﻿using _07_CRUD_Personas_DAL.Conexion;
 using CRUP_Personas_Entidades;
 using Microsoft.Data.SqlClient;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CRUD_Personas_DAL
 {
-    public class clsManejadoraPersona
+    internal class clsManejadoraDepartamento
     {
 
         #region Atributos
@@ -12,7 +17,7 @@ namespace CRUD_Personas_DAL
         #endregion
 
         #region Constructores
-        public clsManejadoraPersona()
+        public clsManejadoraDepartamento()
         {
 
             miConexion = new clsMyConnection();
@@ -20,30 +25,24 @@ namespace CRUD_Personas_DAL
         #endregion
 
 
-
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
+        /// Descripcion: Actualiza o guarda un departamento en la base de datos
         /// Precondiciones: Ninguna
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
-        /// <param name="persona"></param>
+        /// <param name="departamento"></param>
         /// <returns></returns>
-        public int guardarPersona(clsPersona persona)
+        public int guardarDepartamento(clsDepartamento departamento)
         {
 
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Insert into personas values(@id, @nombre, @apellidos, @telefono, @foto, @fecha, @dni, @idDepartamento)"; // creamos el comando
+            comando.CommandText = "Insert into departamentos values(@idDepartamento, @nombreDepartamento,)"; // creamos el comando
 
             //Bindeamos los parametros
-            comando.Parameters.AddWithValue("@id", persona.Id);
-            comando.Parameters.AddWithValue("@nombre", persona.Nombre);
-            comando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
-            comando.Parameters.AddWithValue("@telefono", persona.Telefono);
-            comando.Parameters.AddWithValue("@foto", persona.Foto);
-            comando.Parameters.AddWithValue("@dni", persona.Dni);
-            comando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
+            comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);
+            comando.Parameters.AddWithValue("@nombreDepartamento", departamento.NombreDepartamento);
 
             comando.Connection = cnn; //le metemos el comando a nuestra conexion
 
@@ -57,24 +56,22 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
+        /// Descripcion: Actualiza o guarda un departamento en la base de datos
         /// Precondiciones: Ninguna
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
-        /// <param name="persona"></param>
+        /// <param name="departamento"></param>
         /// <returns></returns>
-        public int borrarPersona(clsPersona persona)
+        public int borrarDepartamento(clsDepartamento departamento)
         {
 
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Delete * From Personas Where id = @id"; // creamos el comando
+            comando.CommandText = "Delete * From Departamentos Where idDepartamento = @idDepartamento"; // creamos el comando
 
             //Bindeamos los parametros
-            comando.Parameters.AddWithValue("@id", persona.Id);
-
-
+            comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);
 
             comando.Connection = cnn; //le metemos el comando a nuestra conexion
 
@@ -86,27 +83,23 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
+        /// Descripcion: Actualiza o guarda un departamento en la base de datos
         /// Precondiciones: Ninguna
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
-        /// <param name="persona"></param>
+        /// <param name="departamento"></param>
         /// <returns></returns>
-        public int actualizarPersona(clsPersona persona)
+        public int actualizarDepartamento(clsDepartamento departamento)
         {
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Update Personas set nombre = @nombre, apellidos = @apellidos, telefono = @telefono, foto = @foto, fecha = @fecha, dni = @dni,idDepartamento = @idDepartamento  where id = @id"; // creamos el comando
+            comando.CommandText = "Update Personas set idDepartamento = @idDepartamento, nombre = @nombre where idDepartamento = @idDepartamento"; // creamos el comando
 
             //Bindeamos los parametros
-            comando.Parameters.AddWithValue("@id", persona.Id);
-            comando.Parameters.AddWithValue("@nombre", persona.Nombre);
-            comando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
-            comando.Parameters.AddWithValue("@telefono", persona.Telefono);
-            comando.Parameters.AddWithValue("@foto", persona.Foto);
-            comando.Parameters.AddWithValue("@dni", persona.Dni);
-            comando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
+            comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);
+            comando.Parameters.AddWithValue("@nombreDepartamento", departamento.NombreDepartamento);
+
 
             comando.Connection = cnn; //le metemos el comando a nuestra conexion
 
@@ -116,7 +109,6 @@ namespace CRUD_Personas_DAL
 
             return numFilasAfectadas;
         }
-
 
     }
 }

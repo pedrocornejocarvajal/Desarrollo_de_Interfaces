@@ -52,8 +52,4 @@
 	  <ProjectReference Include="..\CRUD_Personas_BL\CRUD_Personas_BL.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="ViewModels\Utilidades\" />
-	</ItemGroup>
-
 </Project>

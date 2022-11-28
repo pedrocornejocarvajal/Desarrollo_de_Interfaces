@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _09_Ejercicio3_MAUI.ViewModel
 {
-    internal class recogerPersona : INotifyPropertyChanged
+    public class recogerPersona : INotifyPropertyChanged
     {
         
         private String nombre;
