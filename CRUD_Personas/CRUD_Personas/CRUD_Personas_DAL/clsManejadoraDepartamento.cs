@@ -26,7 +26,7 @@ namespace CRUD_Personas_DAL
 
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda un departamento en la base de datos
+        /// Descripcion: Inserta un nuevo departamento en la base de datos
         /// Precondiciones: Ninguna
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
@@ -38,7 +38,7 @@ namespace CRUD_Personas_DAL
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Insert into departamentos values(@idDepartamento, @nombreDepartamento,)"; // creamos el comando
+            comando.CommandText = "Insert into departamentos values(@idDepartamento, @nombreDepartamento)"; // creamos el comando
 
             //Bindeamos los parametros
             comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);
@@ -56,8 +56,8 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda un departamento en la base de datos
-        /// Precondiciones: Ninguna
+        /// Descripcion: Borra un departamento en la base de datos
+        /// Precondiciones: El departamento a borrar debe existir en la base de datos
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
         /// <param name="departamento"></param>
@@ -68,7 +68,7 @@ namespace CRUD_Personas_DAL
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Delete * From Departamentos Where idDepartamento = @idDepartamento"; // creamos el comando
+            comando.CommandText = "Delete * From Departamentos Where id = @idDepartamento"; // creamos el comando
 
             //Bindeamos los parametros
             comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);
@@ -83,8 +83,8 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda un departamento en la base de datos
-        /// Precondiciones: Ninguna
+        /// Descripcion: Actualiza un departamento existente en la base de datos
+        /// Precondiciones: El departamento a actualizar debe existir en la Base de datos
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
         /// <param name="departamento"></param>
@@ -94,7 +94,7 @@ namespace CRUD_Personas_DAL
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Update Personas set idDepartamento = @idDepartamento, nombre = @nombre where idDepartamento = @idDepartamento"; // creamos el comando
+            comando.CommandText = "Update Departamento set idDepartamento = @idDepartamento, nombre = @nombre where id = @idDepartamento"; // creamos el comando
 
             //Bindeamos los parametros
             comando.Parameters.AddWithValue("@idDepartamento", departamento.IdDepartamento);

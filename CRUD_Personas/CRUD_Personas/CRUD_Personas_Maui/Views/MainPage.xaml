@@ -6,7 +6,7 @@
 
     <ContentPage.BindingContext>
 
-        <model: recogerPersona />
+        <model:recogerPersona />
 
     </ContentPage.BindingContext>
     <ScrollView>

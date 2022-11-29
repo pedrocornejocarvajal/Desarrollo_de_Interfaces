@@ -22,7 +22,7 @@ namespace CRUD_Personas_DAL
 
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
+        /// Descripcion: inserta una nueva persona en la base de datos
         /// Precondiciones: Ninguna
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
@@ -57,8 +57,8 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
-        /// Precondiciones: Ninguna
+        /// Descripcion: Borra una persona en la base de datos
+        /// Precondiciones: La persona a borrar debe existir en la base de datos
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
         /// <param name="persona"></param>
@@ -86,8 +86,8 @@ namespace CRUD_Personas_DAL
         }
 
         /// <summary>
-        /// Descripcion: Actualiza o guarda una persona en la base de datos
-        /// Precondiciones: Ninguna
+        /// Descripcion: Actualiza  una persona en la base de datos
+        /// Precondiciones: la persona a actualizar debe existir en la base de datos
         /// Postcondiciones: Numero de filas afectadas es mayor o igual a 0
         /// </summary>
         /// <param name="persona"></param>
@@ -97,7 +97,7 @@ namespace CRUD_Personas_DAL
             SqlConnection cnn = miConexion.getConnection(); // Crea la conexion
             SqlCommand comando = new SqlCommand();  // Guarda el comando sql
 
-            comando.CommandText = "Update Personas set nombre = @nombre, apellidos = @apellidos, telefono = @telefono, foto = @foto, fecha = @fecha, dni = @dni,idDepartamento = @idDepartamento  where id = @id"; // creamos el comando
+            comando.CommandText = "Update Personas set nombre = @nombre, apellidos = @apellidos, telefono = @telefono, foto = @foto, fechaNacimiento = @fecha, dni = @dni,idDepartamento = @idDepartamento  where id = @id"; // creamos el comando
 
             //Bindeamos los parametros
             comando.Parameters.AddWithValue("@id", persona.Id);
