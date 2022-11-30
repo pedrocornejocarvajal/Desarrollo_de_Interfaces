@@ -1,8 +1,8 @@
-﻿using _07_CRUD_Personas_DAL.Conexion;
-using CRUP_Personas_Entidades;
+﻿using CRUD_Personas_DAL.Conexion;
+using CRUD_Personas_Entidades;
 using Microsoft.Data.SqlClient;
 
-namespace CRUD_Personas_DAL
+namespace CRUD_Personas_DAL.Gestion
 {
     public class clsManejadoraPersona
     {

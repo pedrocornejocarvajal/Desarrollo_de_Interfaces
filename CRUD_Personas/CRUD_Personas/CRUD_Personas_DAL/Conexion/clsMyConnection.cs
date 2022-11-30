@@ -1,5 +1,4 @@
-﻿
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
 // Esta clase contiene los métodos necesarios para trabajar con el acceso a una base de datos SQL Server
 //PROPIEDADES
@@ -18,32 +17,32 @@ using Microsoft.Data.SqlClient;
 
 
 
-namespace _07_CRUD_Personas_DAL.Conexion
+namespace CRUD_Personas_DAL.Conexion
 {
     public class clsMyConnection
     {
         //Atributos
-        public String server { get; set; }
-        public String dataBase { get; set; }
-        public String user { get; set; }
-        public String pass { get; set; }
+        public string server { get; set; }
+        public string dataBase { get; set; }
+        public string user { get; set; }
+        public string pass { get; set; }
 
         //Constructores
 
         public clsMyConnection()
         {
-            
-            this.server = "jesusd.database.windows.net";
-            this.dataBase = "jesusd";
-            this.user = "administrador";            
-            this.pass = "#Mitesoro";
+
+            server = "jesusd.database.windows.net";
+            dataBase = "jesusd";
+            user = "administrador";
+            pass = "#Mitesoro";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones
-        public clsMyConnection(String server, String database, String user, String pass)
+        public clsMyConnection(string server, string database, string user, string pass)
         {
             this.server = server;
-            this.dataBase = database;
+            dataBase = database;
             this.user = user;
             this.pass = pass;
         }
@@ -62,7 +61,7 @@ namespace _07_CRUD_Personas_DAL.Conexion
 
             try
             {
-                            
+
                 connection.ConnectionString = $"server={server};database={dataBase};uid={user};pwd={pass};";
                 connection.Open();
             }

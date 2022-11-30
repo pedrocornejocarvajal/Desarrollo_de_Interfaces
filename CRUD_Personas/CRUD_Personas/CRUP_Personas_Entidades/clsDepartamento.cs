@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRUP_Personas_Entidades
+namespace CRUD_Personas_Entidades
 {
     public class clsDepartamento
     {

@@ -1,4 +1,4 @@
-﻿namespace CRUP_Personas_Entidades
+﻿namespace CRUD_Personas_Entidades
 {
     public class clsPersona
     {

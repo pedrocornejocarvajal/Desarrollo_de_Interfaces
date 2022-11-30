@@ -1,4 +1,4 @@
-﻿using CRUP_Personas_Entidades;
+﻿using CRUD_Personas_Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
