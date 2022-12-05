@@ -9,9 +9,10 @@
         <vm:clsListadoPersonasVM/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout>
 
-        <ScrollView>
+    <ScrollView>
+        <VerticalStackLayout>
+
             <CollectionView ItemsSource="{Binding Personas}" x:Name="coleccionPersonas">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -67,9 +68,9 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </ScrollView>
-    </VerticalStackLayout>
-    
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
 
 

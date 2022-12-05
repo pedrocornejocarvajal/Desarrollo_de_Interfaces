@@ -58,8 +58,8 @@ namespace CRUD_Personas_DAL.Listados
                             miLector.GetString(2),
                             miLector.GetString(3),
                             miLector.GetString(4),
-                            miLector.GetDateTime(5),
-                            miLector.GetString(6),
+                            miLector.GetString(5),
+                            miLector.GetDateTime(6),
                             miLector.GetInt32(7)
                             ));
                     }

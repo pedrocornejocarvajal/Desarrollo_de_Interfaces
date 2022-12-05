@@ -32,10 +32,10 @@ namespace CRUD_Personas_DAL.Conexion
         public clsMyConnection()
         {
 
-            server = "jesusd.database.windows.net";
-            dataBase = "jesusd";
-            user = "administrador";
-            pass = "#Mitesoro";
+            server = "falbinana.database.windows.net";
+            dataBase = "PACOBBDD";
+            user = "falbinana";
+            pass = "Mandaloriano69";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones

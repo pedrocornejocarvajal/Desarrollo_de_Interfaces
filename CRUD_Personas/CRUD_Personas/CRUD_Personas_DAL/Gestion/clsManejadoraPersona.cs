@@ -42,7 +42,6 @@ namespace CRUD_Personas_DAL.Gestion
             comando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
             comando.Parameters.AddWithValue("@telefono", persona.Telefono);
             comando.Parameters.AddWithValue("@foto", persona.Foto);
-            comando.Parameters.AddWithValue("@dni", persona.Dni);
             comando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
 
             comando.Connection = cnn; //le metemos el comando a nuestra conexion
@@ -105,7 +104,6 @@ namespace CRUD_Personas_DAL.Gestion
             comando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
             comando.Parameters.AddWithValue("@telefono", persona.Telefono);
             comando.Parameters.AddWithValue("@foto", persona.Foto);
-            comando.Parameters.AddWithValue("@dni", persona.Dni);
             comando.Parameters.AddWithValue("@idDepartamento", persona.IdDepartamento);
 
             comando.Connection = cnn; //le metemos el comando a nuestra conexion

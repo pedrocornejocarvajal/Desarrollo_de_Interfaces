@@ -90,7 +90,7 @@ namespace UI.ViewModels
 					if (departamentos.ElementAt(i).IdDepartamento == p.IdDepartamento)
 					{
 
-						Personas.Add( new(p.Nombre, p.Apellidos, p.Telefono, p.Dni, p.Fecha, departamentos.ElementAt(i).NombreDepartamento));
+						Personas.Add(new(p.Nombre, p.Apellidos, p.Telefono, p.Foto, p.Direccion, p.Fecha , departamentos.ElementAt(i).NombreDepartamento));
 
 					}
 				}
