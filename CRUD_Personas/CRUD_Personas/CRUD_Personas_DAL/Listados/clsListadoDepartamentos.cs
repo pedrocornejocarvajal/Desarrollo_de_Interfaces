@@ -34,7 +34,7 @@ namespace CRUD_Personas_DAL.Listados
         public List<clsDepartamento> ListadoCompletoDepartamentos()
         {
             List<clsDepartamento> lista = new List<clsDepartamento>();
-
+             
 
             try
             {
