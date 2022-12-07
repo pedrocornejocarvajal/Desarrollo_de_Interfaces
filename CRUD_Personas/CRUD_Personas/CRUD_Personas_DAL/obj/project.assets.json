@@ -2587,11 +2587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
+      "projectUniqueName": "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
       "projectName": "CRUD_Personas_DAL",
-      "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
+      "projectPath": "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
       "packagesPath": "C:\\Users\\pcornejo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\obj\\",
+      "outputPath": "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2613,8 +2613,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj": {
-              "projectPath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj"
+            "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj": {
+              "projectPath": "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUP_Personas_Entidades\\CRUD_Personas_Entidades.csproj"
             }
           }
         }
@@ -2650,7 +2650,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

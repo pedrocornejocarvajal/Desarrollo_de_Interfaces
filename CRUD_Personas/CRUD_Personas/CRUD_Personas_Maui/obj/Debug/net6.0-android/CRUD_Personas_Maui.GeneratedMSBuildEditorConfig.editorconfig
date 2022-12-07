@@ -5,41 +5,42 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUD_Personas_Maui
-build_property.ProjectDir = C:\Users\pcornejo\Documents\EjercicioSegundo\Desarrollo_de_Interfaces\CRUD_Personas\CRUD_Personas\CRUD_Personas_Maui\
+build_property.ProjectDir = C:\Users\pcornejo\Documents\EjerciciosSegundo\Desarrollo_de_Interfaces\CRUD_Personas\CRUD_Personas\CRUD_Personas_Maui\
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/App.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/AppShell.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Resources/Styles/Colors.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Resources/Styles/Styles.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Views/ListadoDepartamentosPage.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Views/ListadoDepartamentosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.Views.ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListadoDepartamentosPage.xaml
 
-[C:/Users/pcornejo/Documents/EjercicioSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Views/ListadoPersonasPage.xaml]
+[C:/Users/pcornejo/Documents/EjerciciosSegundo/Desarrollo_de_Interfaces/CRUD_Personas/CRUD_Personas/CRUD_Personas_Maui/Views/ListadoPersonasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUD_Personas_Maui.Views.ListadoPersonasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoPersonasPage.xaml

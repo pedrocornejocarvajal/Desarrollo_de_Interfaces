@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/OT4LeKx2Ud11YvlYIsekkG4yUxis5ee6SHHyeQ9wPAsa8A4meNRBRltUNk2nzpc9COx3KnvB65cdseLJ1LcRg==",
+  "dgSpecHash": "Tr34FdL0eylNzSHkujSiQzyr/c8Wjjy/qGT4lVDglVVFyfn2ZeaO1ve5kSdL3I253FyMN2TTTa7BGmfxl6ZzsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pcornejo\\Documents\\EjercicioSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
+  "projectFilePath": "C:\\Users\\pcornejo\\Documents\\EjerciciosSegundo\\Desarrollo_de_Interfaces\\CRUD_Personas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pcornejo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pcornejo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
