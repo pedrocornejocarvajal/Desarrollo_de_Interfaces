@@ -31,11 +31,17 @@ namespace CRUD_Personas_DAL.Conexion
 
         public clsMyConnection()
         {
-
+            /*
             server = "falbinana.database.windows.net";
             dataBase = "PACOBBDD";
             user = "falbinana";
             pass = "Mandaloriano69";
+            */
+
+            server = "107-21\\SQLEXPRESS";
+            dataBase = "examen";
+            user = "prueba";
+            pass = "123";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones
@@ -62,7 +68,7 @@ namespace CRUD_Personas_DAL.Conexion
             try
             {
 
-                connection.ConnectionString = $"server={server};database={dataBase};uid={user};pwd={pass};";
+                connection.ConnectionString = $"server={server};database={dataBase};uid={user};pwd={pass}; ";
                 connection.Open();
             }
             catch (SqlException)
